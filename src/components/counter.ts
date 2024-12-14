@@ -6,5 +6,5 @@ const Counter = () => {
   return (
     button({ onclick: () => ++counter.val }, "Counter: ", counter)
   );
-}
+};
 export default Counter;
