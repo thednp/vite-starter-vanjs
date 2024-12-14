@@ -1,0 +1,20 @@
+{
+  "name": "vite-starter-vanjs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": "thednp",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview --port 3000",
+    "preview": "vite build && vite preview"
+  },
+  "dependencies": {
+    "vanjs-core": "^1.5.2"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.0.1"
+  }
+}
